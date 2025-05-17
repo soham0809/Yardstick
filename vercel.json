@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "MONGODB_URI": "mongodb+srv://Soham1234:sohhammmm112234@taskcluster.ahmrhok.mongodb.net/finance-visualizer?retryWrites=true&w=majority&appName=TaskCluster"
+  }
+}
